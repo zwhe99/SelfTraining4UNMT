@@ -1,0 +1,15 @@
+{
+   "readable_name": "run-xlm-unmt-st-enro-3",
+   "Token": "WHdMBLlf-T2m0yKqWpfkTg",
+   "model_local_file_path": "/apdcephfs/share_916081/timurhe/ACL2021/5-reproduction",
+   "business_flag": "nlpc",
+   "host_num": 1,
+   "host_gpu_num": 8,
+   "enable_rdma": true,
+   "image_full_name": "mirrors.tencent.com/timurhe-ns/g-tlinux2.2-python3.6-cuda11.0-torch1.7-fs0.10.2-apex0.1:01",
+   "is_elasticity": true,
+   "keep_alive": true,
+   "enable_evicted_pulled_up": true,
+   "GPUName":"A100",
+   "start_cmd": "sh run-xlm-unmt-st-enro-3.sh"
+}
