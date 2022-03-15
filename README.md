@@ -54,11 +54,11 @@ Considering that it can take a very long time to prepare the data, we provide th
 * [English-German](https://drive.google.com/file/d/1W-ngJpUvfRwSmWAUR2GZejMHBlRCMjfS/view?usp=sharing)
 * [English-Romanian](https://drive.google.com/file/d/1fTP7PIbebewoLZD1rShFManED9cMysrV/view?usp=sharing)
 
-## Pretrained models
+## Pre-trained models
 
-We adopted the released [XLM](https://github.com/facebookresearch/XLM) and [MASS](https://github.com/microsoft/MASS) models for all language pairs. In order to better reproduce the results for MASS on En-De, we used monolingual data to continue pre-training the MASS pre-trained model for 300 epochs and selected the best model (epoch@270) by perplexity (PPL) on the validation setss. 
+We adopted the released [XLM](https://github.com/facebookresearch/XLM) and [MASS](https://github.com/microsoft/MASS) models for all language pairs. In order to better reproduce the results for MASS on En-De, we used monolingual data to continue pre-training the MASS pre-trained model for 300 epochs and selected the best model (epoch@270) by perplexity (PPL) on the validation set. 
 
-We provide the pretrained models we used:
+Here are pre-trained models we used:
 
 | Languages        |                             XLM                              |                             MASS                             |
 | :--------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
