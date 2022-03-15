@@ -64,7 +64,7 @@ Here are pre-trained models we used:
 | :--------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | English-French   | [Model](https://dl.fbaipublicfiles.com/XLM/mlm_enfr_1024.pth) | [Model](https://modelrelease.blob.core.windows.net/mass/mass_enfr_1024.pth) |
 | English-German   | [Model](https://dl.fbaipublicfiles.com/XLM/mlm_ende_1024.pth) | [Model](https://drive.google.com/file/d/13feylC1qFvG8kcNi-9JXVnzEYo0OouRK/view?usp=sharing) |
-| English-Romanian | [Model](https://dl.fbaipublicfiles.com/XLM/mlm_enro_1024.pth) | [Model](https://modelrelease.blob.core.windows.net/mass/mass_enfr_1024.pth) |
+| English-Romanian | [Model](https://dl.fbaipublicfiles.com/XLM/mlm_enro_1024.pth) | [Model](https://modelrelease.blob.core.windows.net/mass/mass_enro_1024.pth) |
 
 ## Model training
 
