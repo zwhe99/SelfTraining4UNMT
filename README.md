@@ -47,7 +47,7 @@ We prepared the data following the instruction from [XLM (Section III)](https://
 
 * For English-German, we used the processed data provided by [KaiTao Song](https://github.com/StillKeepTry).
 
-Considering that it can take a very long time to prepare the data, we provide the processed data for download (TBD)：
+Considering that it can take a very long time to prepare the data, we provide the processed data for download：
 
 * [English-French](https://drive.google.com/file/d/15OBlFMjuwkbaY47xWdPysMyfpB-CqVoC/view?usp=sharing)
 
