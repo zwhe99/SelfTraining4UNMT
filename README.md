@@ -83,44 +83,57 @@ sh run-xlm-unmt-st-ende.sh
 
 **Trained model**
 
+We selected the best model by BLEU score on the validation set for both directions. Therefore, we release En-X and X-En models for each experiment.
+
 <table>
 <thead>
   <tr>
     <th>Approch</th>
-    <th>XLM</th>
-    <th>MASS</th>
+    <th colspan="2">XLM</th>
+    <th colspan="2">MASS</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="3">UNMT</td>
-    <td><a href="https://drive.google.com/file/d/1nLmt9zpywKB6jufUCJJPjZlNdJEe1Fmb/view?usp=sharing">En-Fr</a>, <a href="https://drive.google.com/file/d/1IjLb_KEPYYtRUgJtp23qYjIfpVh0kM5X/view?usp=sharing">Fr-En</a></td>
-    <td><a href="https://drive.google.com/file/d/1ptyrsi_d3NvznHNX2yR5pDBicyiu0rSI/view?usp=sharing">En-Fr</a>, <a href="https://drive.google.com/file/d/11QkkP736ZJePgCNp0F-2fckQ9t-acSXC/view?usp=sharing">Fr-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1nLmt9zpywKB6jufUCJJPjZlNdJEe1Fmb/view?usp=sharing">En-Fr</a></td><td> 
+    <a href="https://drive.google.com/file/d/1IjLb_KEPYYtRUgJtp23qYjIfpVh0kM5X/view?usp=sharing">Fr-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1ptyrsi_d3NvznHNX2yR5pDBicyiu0rSI/view?usp=sharing">En-Fr</a></td><td> 
+    <a href="https://drive.google.com/file/d/11QkkP736ZJePgCNp0F-2fckQ9t-acSXC/view?usp=sharing">Fr-En</a></td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/1TJc4nVNvCsDw-Intr3hVOSjk9_yYY8hk/view?usp=sharing">En-De</a>, <a href="https://drive.google.com/file/d/1kZu9kILPtMw9ULvvGRbWDM7tn0ocWvTj/view?usp=sharing">De-En</a></td>
-    <td><a href="https://drive.google.com/file/d/1u-aUk9t2muO25Sot-XBP6uyY3SXY88b4/view?usp=sharing">En-De</a>, <a href="https://drive.google.com/file/d/1lU742bZD1jeMCOhPyXIOQ6lhQ1OgZ9JX/view?usp=sharing">De-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1TJc4nVNvCsDw-Intr3hVOSjk9_yYY8hk/view?usp=sharing">En-De</a></td><td> 
+    <a href="https://drive.google.com/file/d/1kZu9kILPtMw9ULvvGRbWDM7tn0ocWvTj/view?usp=sharing">De-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1u-aUk9t2muO25Sot-XBP6uyY3SXY88b4/view?usp=sharing">En-De</a></td><td> 
+    <a href="https://drive.google.com/file/d/1lU742bZD1jeMCOhPyXIOQ6lhQ1OgZ9JX/view?usp=sharing">De-En</a></td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/1D7z0V-8BNdKMQb1Ci_Pe4ru4lvn562t6/view?usp=sharing">En-Ro</a>, <a href="https://drive.google.com/file/d/10n2vOb543rNvIf1d9woDcFK7UxhTMCrV/view?usp=sharing">Ro-En</a></td>
-    <td><a href="https://drive.google.com/file/d/11-Twma-XGrZjzlJCbUncQ6rbxtloD-Fx/view?usp=sharing">En-Ro</a>, <a href="https://drive.google.com/file/d/1H4VY4cvOnrvftmQb9Nn2dTIVz9VmTKEM/view?usp=sharing">Ro-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1D7z0V-8BNdKMQb1Ci_Pe4ru4lvn562t6/view?usp=sharing">En-Ro</a></td><td> 
+    <a href="https://drive.google.com/file/d/10n2vOb543rNvIf1d9woDcFK7UxhTMCrV/view?usp=sharing">Ro-En</a></td>
+    <td><a href="https://drive.google.com/file/d/11-Twma-XGrZjzlJCbUncQ6rbxtloD-Fx/view?usp=sharing">En-Ro</a></td><td> 
+    <a href="https://drive.google.com/file/d/1H4VY4cvOnrvftmQb9Nn2dTIVz9VmTKEM/view?usp=sharing">Ro-En</a></td>
   </tr>
   <tr>
     <td rowspan="3">UNMT-ST</td>
-    <td><a href="https://drive.google.com/file/d/1zH3c9Erf9YU3tSLTbzQTAIz_Cf944BsX/view?usp=sharing">En-Fr</a>, <a href="https://drive.google.com/file/d/1WMYUox0jZWGjshSDLdKzlBy5P0LMVdhi/view?usp=sharing">Fr-En</a></td>
-    <td><a href="https://drive.google.com/file/d/190iFbUFJ9vgQPcwUqgNJdUthtLfyX9sM/view?usp=sharing">En-Fr</a>, <a href="https://drive.google.com/file/d/1CmCD4BxogK62C9aforhLPe5xVJ4wSXcv/view?usp=sharing">Fr-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1zH3c9Erf9YU3tSLTbzQTAIz_Cf944BsX/view?usp=sharing">En-Fr</a></td><td> 
+    <a href="https://drive.google.com/file/d/1WMYUox0jZWGjshSDLdKzlBy5P0LMVdhi/view?usp=sharing">Fr-En</a></td>
+    <td><a href="https://drive.google.com/file/d/190iFbUFJ9vgQPcwUqgNJdUthtLfyX9sM/view?usp=sharing">En-Fr</a></td><td> 
+    <a href="https://drive.google.com/file/d/1CmCD4BxogK62C9aforhLPe5xVJ4wSXcv/view?usp=sharing">Fr-En</a></td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/1Iw5vPNav07k5th79C8JyrVKCvxzvD3x2/view?usp=sharing">En-De</a>, <a href="https://drive.google.com/file/d/1h9cjSm_2_fIxaiubcYzcFh7-Tqo0f1AV/view?usp=sharing">De-En</a></td>
-    <td><a href="https://drive.google.com/file/d/1wBxucr4vQYO0rnE1X3tiX5UkBtmUjhLd/view?usp=sharing">En-De</a>, <a href="https://drive.google.com/file/d/11HA-pHGoHQ8MVI0h8nNbUuHDo7q11pkq/view?usp=sharing">De-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1Iw5vPNav07k5th79C8JyrVKCvxzvD3x2/view?usp=sharing">En-De</a></td><td> 
+    <a href="https://drive.google.com/file/d/1h9cjSm_2_fIxaiubcYzcFh7-Tqo0f1AV/view?usp=sharing">De-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1wBxucr4vQYO0rnE1X3tiX5UkBtmUjhLd/view?usp=sharing">En-De</a></td><td> 
+    <a href="https://drive.google.com/file/d/11HA-pHGoHQ8MVI0h8nNbUuHDo7q11pkq/view?usp=sharing">De-En</a></td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/file/d/1IQwj5dVY50s1plBZsPYkrb6rYk3jXi7x/view?usp=sharing">En-Ro</a>, <a href="https://drive.google.com/file/d/1noiff7a3hstCE10b3Aoxytc6HeChX0Lf/view?usp=sharing">Ro-En</a></td>
-    <td><a href="https://drive.google.com/file/d/1vJolxhkAWh1fo3B_emoL3NImblnJpbf7/view?usp=sharing">En-Ro</a>, <a href="https://drive.google.com/file/d/1zNbOo-3Li3j0f6Hq0NN0-9ThcA8e8l4j/view?usp=sharing">Ro-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1IQwj5dVY50s1plBZsPYkrb6rYk3jXi7x/view?usp=sharing">En-Ro</a></td><td> 
+    <a href="https://drive.google.com/file/d/1noiff7a3hstCE10b3Aoxytc6HeChX0Lf/view?usp=sharing">Ro-En</a></td>
+    <td><a href="https://drive.google.com/file/d/1vJolxhkAWh1fo3B_emoL3NImblnJpbf7/view?usp=sharing">En-Ro</a></td><td> 
+    <a href="https://drive.google.com/file/d/1zNbOo-3Li3j0f6Hq0NN0-9ThcA8e8l4j/view?usp=sharing">Ro-En</a></td>
   </tr>
 </tbody>
 </table>
-
 ## Evaluation
 
 #### Generate translations
