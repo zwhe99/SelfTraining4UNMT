@@ -17,7 +17,7 @@ We based this code heavily on the original code of [XLM](https://github.com/face
 * Pytorch1.7.1
 
   ```shell
-  pip install torch==1.7.1+cu110
+  pip3 install torch==1.7.1+cu110
   ```
 
 * fastBPE
