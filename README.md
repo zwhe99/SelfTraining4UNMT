@@ -10,7 +10,7 @@ ACL2022 (long paper, main conference)
 
 We based this code heavily on the original code of [XLM](https://github.com/facebookresearch/XLM) and [MASS](https://github.com/microsoft/MASS).
 
-### Dependencies
+## Dependencies
 
 * Python3
 
@@ -31,7 +31,7 @@ We based this code heavily on the original code of [XLM](https://github.com/face
   pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" .
   ```
 
-### Data ready
+## Data ready
 
 We prepared the data following the instruction from [XLM (Section III)](https://github.com/facebookresearch/XLM/blob/main/README.md#iii-applications-supervised--unsupervised-mt). We used their released scripts, BPE codes and vocabularies. However, there are some differences with them：
 
@@ -54,7 +54,7 @@ Considering that it can take a very long time to prepare the data, we provide th
 * [English-German]()
 * [English-Romanian]()
 
-### Pretrained models
+## Pretrained models
 
 We adopted the released [XLM](https://github.com/facebookresearch/XLM) and [MASS](https://github.com/microsoft/MASS) models for all language pairs. In order to better reproduce the results for MASS on En-De, we used monolingual data to continue pre-training the MASS pre-trained model for 300 epochs and selected the best model (epoch@270) by perplexity (PPL) on the validation setss. 
 
@@ -66,7 +66,7 @@ We provide the pretrained models we used:
 | English-German   | [Model](https://dl.fbaipublicfiles.com/XLM/mlm_ende_1024.pth) |                     [Model](https://tbd)                     |
 | English-Romanian | [Model](https://dl.fbaipublicfiles.com/XLM/mlm_enro_1024.pth) | [Model](https://modelrelease.blob.core.windows.net/mass/mass_enfr_1024.pth) |
 
-### Model training
+## Model training
 
 We provide training scripts for baseline UNMT models and our approach with online self-training. For example, train UNMT model with online self-training and XLM initialization:
 
@@ -77,7 +77,7 @@ sh run-xlm-unmt-st-ende.sh
 
 **Note:** remember to modify the path variables in the header of the shell script.
 
-### Evaluation
+## Evaluation
 
 #### Generate translations
 
