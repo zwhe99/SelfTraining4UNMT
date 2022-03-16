@@ -161,5 +161,5 @@ sed  -r 's/(@@ )|(@@ ?$)//g' output.de.bpe > output.de.tok
 
 ```shell
 BLEU_SCRIPT_PATH=src/evaluation/multi-bleu.perl
-BLEU_SCRIPT_PATH ref.de.tok < hyp.de.tok
+BLEU_SCRIPT_PATH ref.de.tok < output.de.tok
 ```
