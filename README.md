@@ -5,7 +5,7 @@ This is the implementaion of our paper:
 ```
 Bridging the Data Gap between Training and Inference for Unsupervised Neural Machine Translation
 Zhiwei He*, Xing Wang, Rui Wang, Shuming Shi, Zhaopeng Tu
-ACL2022 (long paper, main conference)
+ACL 2022 (long paper, main conference)
 ```
 
 We based this code heavily on the original code of [XLM](https://github.com/facebookresearch/XLM) and [MASS](https://github.com/microsoft/MASS).
