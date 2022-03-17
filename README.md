@@ -1,6 +1,6 @@
 ## Bridging the Data Gap between Training and Inference for Unsupervised Neural Machine Translation
 
-This is the implementaion of our paper:
+This is the implementaion of our [paper](https://arxiv.org/abs/2203.08394):
 
 ```
 Bridging the Data Gap between Training and Inference for Unsupervised Neural Machine Translation
