@@ -163,3 +163,20 @@ sed  -r 's/(@@ )|(@@ ?$)//g' output.de.bpe > output.de.tok
 BLEU_SCRIPT_PATH=src/evaluation/multi-bleu.perl
 BLEU_SCRIPT_PATH ref.de.tok < output.de.tok
 ```
+
+
+
+## Citation
+
+```bibtext
+inproceedings{he-etal-2022-bridging,
+    title = "Bridging the Data Gap between Training and Inference for Unsupervised Neural Machine Translation",
+    author = "He, Zhiwei  and
+      Wang, Xing  and
+      Wang, Rui  and
+      Shi, Shuming  and
+      Tu, Zhaopeng",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics"
+}
+```
+
