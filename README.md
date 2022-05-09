@@ -169,7 +169,7 @@ BLEU_SCRIPT_PATH ref.de.tok < output.de.tok
 ## Citation
 
 ```bibtext
-inproceedings{he-etal-2022-bridging,
+@inproceedings{he-etal-2022-bridging,
     title = "Bridging the Data Gap between Training and Inference for Unsupervised Neural Machine Translation",
     author = "He, Zhiwei  and
       Wang, Xing  and
